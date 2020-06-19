@@ -23,6 +23,7 @@ pages:
 ```
 """
 
+#from ._ruben import Ruben
 from ._parameter_distribution import ParameterDistribution
 from ._parameter_correlation import ParameterCorrelation
 from ._parameter_response_correlation import ParameterResponseCorrelation
@@ -49,6 +50,7 @@ from ._reservoir_simulation_timeseries_regional import (
     ReservoirSimulationTimeSeriesRegional,
 )
 from ._rft_plotter.rft_plotter import RftPlotter
+from ._dummy_dum import SubClass 
 
 
 __all__ = [

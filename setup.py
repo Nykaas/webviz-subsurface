@@ -16,6 +16,7 @@ setup(
     package_data={"webviz_subsurface": ["_abbreviations/abbreviation_data/*.json"]},
     entry_points={
         "webviz_config_plugins": [
+            "SubClass = webviz_subsurface.plugins:SubClass",
             "ParameterDistribution = webviz_subsurface.plugins:ParameterDistribution",
             "ParameterCorrelation = webviz_subsurface.plugins:ParameterCorrelation",
             "ParameterResponseCorrelation = "
